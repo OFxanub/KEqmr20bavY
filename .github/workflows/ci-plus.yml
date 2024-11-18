@@ -4,7 +4,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    - cron: '*/60 * * * *'  # 每小时运行一次
+    - cron: '*/10 * * * *'  # 每小时运行一次
   workflow_dispatch:
 
 jobs:
